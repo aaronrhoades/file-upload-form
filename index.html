@@ -1,0 +1,22 @@
+<!-- TODO: https://www.w3schools.com/php/php_file_upload.asp -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="uploadFile">Upload File</label>
+            <input type="file" name="uploadFile" id="uploadFile">
+        </div>
+        <div class="formgroup">
+            <label for="uploadTitle"></label>
+            <input type="text" name="uploadTitle" id="uploadTitle">
+        </div>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
