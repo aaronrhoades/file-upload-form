@@ -2,9 +2,9 @@
 
 // db credentials
 define('DB_HOST', 'localhost:3308'); //WAMP users can get the localhost port number through the icon tray -> MySQL icon
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'aaron_music');
+define('DB_USER', 'root'); //your db user
+define('DB_PASS', ''); //your db user pass
+define('DB_NAME', ''); //your db name
 
 // Connect to the database.
 function connect()
